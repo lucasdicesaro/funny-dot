@@ -48,7 +48,5 @@ void keyPressed() {
     outgoing =  nf(x, MAX_AXIS_LENGHT) + "," + nf(y, MAX_AXIS_LENGHT);
     System.out.println("sentX,Y: " + outgoing);
     myServer.write(outgoing);
-    draw();
   }
-  
 }
